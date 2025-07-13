@@ -127,7 +127,7 @@ Response Failed:
 
 ---
 
-Endpoint Detail Vendors: GET http://vhiwebtest.test/api/vendors/{vendor_id}
+Endpoint Detail Vendors: GET http://localhost:8000/api/vendors/{vendor_id}
 <code>
 Response:
 {
@@ -144,7 +144,7 @@ Response:
 
 ---
 
-Endpoint Update Vendors: PUT http://vhiwebtest.test/api/vendors/{vendor_id}
+Endpoint Update Vendors: PUT http://localhost:8000/api/vendors/{vendor_id}
 <code>
 Body: 
 {
@@ -157,7 +157,7 @@ Body:
 
 ---
 
-Endpoint Delete Vendors: DELETE http://vhiwebtest.test/api/vendors/{vendor_id}
+Endpoint Delete Vendors: DELETE http://localhost:8000/api/vendors/{vendor_id}
 
 Response:
 {
